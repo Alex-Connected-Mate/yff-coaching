@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yffcoaching.com/sitemap.xml
+Sitemap: https://alex-connected-mate.github.io/yff-coaching/sitemap.xml
