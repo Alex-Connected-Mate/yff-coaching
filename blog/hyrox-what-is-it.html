@@ -182,5 +182,25 @@
             </div>
         </div>
     </footer>
+
+    <!-- Scripts: reveal animations on scroll -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const els = document.querySelectorAll('.animate-on-scroll, .animate-slide-left, .animate-slide-right, .animate-scale');
+            if ('IntersectionObserver' in window) {
+                const io = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('in-view');
+                            io.unobserve(entry.target);
+                        }
+                    });
+                }, { rootMargin: '0px 0px -60px 0px', threshold: 0.1 });
+                els.forEach(el => io.observe(el));
+            } else {
+                els.forEach(el => el.classList.add('in-view'));
+            }
+        });
+    </script>
 </body>
 </html>
