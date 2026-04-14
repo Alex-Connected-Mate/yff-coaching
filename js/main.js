@@ -80,6 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         navToggle.addEventListener('click', () => {
             const isOpen = navMenu.classList.toggle('open');
             navToggle.classList.toggle('active');
+            document.body.classList.toggle('nav-open', isOpen);
             navToggle.setAttribute('aria-expanded', isOpen);
             document.body.style.overflow = isOpen ? 'hidden' : '';
         });
@@ -88,9 +89,23 @@ document.addEventListener('DOMContentLoaded', () => {
             link.addEventListener('click', () => {
                 navToggle.classList.remove('active');
                 navMenu.classList.remove('open');
+                document.body.classList.remove('nav-open');
                 navToggle.setAttribute('aria-expanded', 'false');
                 document.body.style.overflow = '';
             });
+        });
+
+        // Close when clicking overlay
+        document.addEventListener('click', (e) => {
+            if (navMenu.classList.contains('open') &&
+                !navMenu.contains(e.target) &&
+                !navToggle.contains(e.target)) {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('open');
+                document.body.classList.remove('nav-open');
+                navToggle.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            }
         });
     }
 
