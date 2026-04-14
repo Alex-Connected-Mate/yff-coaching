@@ -1,5 +1,5 @@
 # robots.txt — YFF Coaching
-# https://alex-connected-mate.github.io/yff-coaching/
+# https://connected-mate.github.io/yff-coaching/
 
 User-agent: *
 Allow: /
@@ -26,4 +26,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://alex-connected-mate.github.io/yff-coaching/sitemap.xml
+Sitemap: https://connected-mate.github.io/yff-coaching/sitemap.xml
