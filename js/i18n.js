@@ -67,6 +67,24 @@ const translations = {
         "group.hyrox.schedule": "Every Wednesday at 6:30 PM",
         "group.hyrox.note": "Max 12 people \u2014 Registration required",
 
+        // HYROX
+        "hyrox.tag": "Specialist",
+        "hyrox.title": 'HYROX <em class="text-accent">Expert</em>',
+        "hyrox.desc": "Coaching all levels: from your first race to the podium!",
+        "hyrox.stat1": "HYROX races completed worldwide",
+        "hyrox.stat2": "HYROX Ambassador Canada/USA<br>Season 2024/25 & 25/26",
+        "hyrox.stat3": "Dozens of clients coached for their first HYROX race",
+        "hyrox.f1.title": "15+ Races Worldwide",
+        "hyrox.f1.desc": "HYROX specialist with over 15 races completed across the globe, bringing real competition experience to your training.",
+        "hyrox.f2.title": "Official Ambassador",
+        "hyrox.f2.desc": "HYROX Ambassador for Canada/USA, seasons 2024/25 and 25/26. Recognized by HYROX for promoting and developing the sport.",
+        "hyrox.f3.title": "First Race Coaching",
+        "hyrox.f3.desc": "Coached dozens of athletes through their first HYROX race with personalized preparation and race strategy.",
+        "hyrox.f4.title": "YFF HYROX Academy",
+        "hyrox.f4.desc": "A structured approach to teach athletes the objectives of each training phase and stimulus for optimal race performance.",
+        "hyrox.cta.text": "From your first race to the podium \u2014 I coach all levels.",
+        "hyrox.cta.btn": "Start Your HYROX Journey",
+
         // Programs
         "programs.tag": "Online Coaching",
         "programs.title": 'Training <em class="text-accent">Programs</em>',
@@ -179,6 +197,24 @@ const translations = {
         "group.hyrox.location": "Prairie des Filtres",
         "group.hyrox.schedule": "Tous les mercredis \u00e0 18h30",
         "group.hyrox.note": "Maximum 12 personnes \u2014 Inscription au pr\u00e9alable",
+
+        // HYROX
+        "hyrox.tag": "Sp\u00e9cialiste",
+        "hyrox.title": 'HYROX <em class="text-accent">Expert</em>',
+        "hyrox.desc": "Coaching tout niveau : de la premi\u00e8re course au podium !",
+        "hyrox.stat1": "Courses HYROX r\u00e9alis\u00e9es dans le monde entier",
+        "hyrox.stat2": "Ambassadeur HYROX Canada/USA<br>Saison 2024/25 & 25/26",
+        "hyrox.stat3": "Des dizaines de clients accompagn\u00e9s pour leur premi\u00e8re course",
+        "hyrox.f1.title": "15+ Courses Mondiales",
+        "hyrox.f1.desc": "Sp\u00e9cialiste HYROX avec plus de 15 courses r\u00e9alis\u00e9es \u00e0 travers le monde, apportant une vraie exp\u00e9rience de comp\u00e9tition \u00e0 ton entra\u00eenement.",
+        "hyrox.f2.title": "Ambassadeur Officiel",
+        "hyrox.f2.desc": "Ambassadeur HYROX pour le Canada/USA, saisons 2024/25 et 25/26. Reconnu par HYROX pour la promotion et le d\u00e9veloppement du sport.",
+        "hyrox.f3.title": "Coaching Premi\u00e8re Course",
+        "hyrox.f3.desc": "Des dizaines d'athl\u00e8tes accompagn\u00e9s pour leur premi\u00e8re course HYROX avec une pr\u00e9paration personnalis\u00e9e et une strat\u00e9gie de course.",
+        "hyrox.f4.title": "YFF HYROX Academy",
+        "hyrox.f4.desc": "Une approche structur\u00e9e pour enseigner aux athl\u00e8tes les objectifs de chaque phase d'entra\u00eenement et de stimulus pour une performance optimale en course.",
+        "hyrox.cta.text": "De ta premi\u00e8re course au podium \u2014 je coach tous les niveaux.",
+        "hyrox.cta.btn": "Lance ton Parcours HYROX",
 
         // Programs
         "programs.tag": "Coaching en Ligne",

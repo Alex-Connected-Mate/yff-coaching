@@ -996,6 +996,124 @@ section {
     filter: brightness(0) invert(0.7);
 }
 
+/* --- HYROX Section --- */
+#hyrox {
+    background: var(--bg-section);
+}
+
+.hyrox-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.hyrox-stat-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 32px 24px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.hyrox-stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+
+.hyrox-stat-card.accent {
+    border-color: var(--accent);
+    background: linear-gradient(180deg, rgba(230, 48, 25, 0.08) 0%, var(--bg-card) 100%);
+}
+
+.hyrox-stat-number {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 12px;
+}
+
+.hyrox-stat-icon {
+    color: var(--accent);
+    margin-bottom: 12px;
+}
+
+.hyrox-stat-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.hyrox-features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.hyrox-feature-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 32px 24px;
+    transition: var(--transition);
+}
+
+.hyrox-feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--accent);
+}
+
+.hyrox-feature-icon {
+    color: var(--accent);
+    margin-bottom: 16px;
+}
+
+.hyrox-feature-card h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hyrox-feature-card p {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+.hyrox-cta {
+    text-align: center;
+}
+
+.hyrox-cta-inner {
+    background: linear-gradient(135deg, rgba(230, 48, 25, 0.1) 0%, rgba(230, 48, 25, 0.03) 100%);
+    border: 1px solid rgba(230, 48, 25, 0.2);
+    border-radius: var(--radius-lg);
+    padding: 48px 40px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.hyrox-cta-logo {
+    height: 36px;
+    width: auto;
+    filter: brightness(0) invert(1);
+    opacity: 0.8;
+}
+
+.hyrox-cta-inner p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
 /* --- Programs --- */
 .program-block {
     background: var(--bg-card);
@@ -1494,6 +1612,14 @@ section {
         grid-template-columns: 1fr;
     }
 
+    .hyrox-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .hyrox-features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .footer-content {
         grid-template-columns: 1fr;
         text-align: center;
@@ -1561,6 +1687,14 @@ section {
 
     .program-block {
         padding: 24px;
+    }
+
+    .hyrox-features {
+        grid-template-columns: 1fr;
+    }
+
+    .hyrox-cta-inner {
+        padding: 32px 24px;
     }
 
     .about-image-grid {
