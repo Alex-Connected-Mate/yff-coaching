@@ -1,0 +1,16 @@
+/* TEAM */
+Founder & Head Coach: Yohan Plier
+Location: Toulouse, France
+Instagram: @yofirefit
+
+/* SITE */
+Last update: 2026/04/14
+Language: French / English
+Doctype: HTML5
+Standards: HTML5, CSS3, JavaScript, Schema.org
+
+/* CERTIFICATIONS */
+- Licence STAPS - Université Paris Descartes
+- CrossFit Level 1 Trainer
+- HYROX Certified Coach
+- HYROX Ambassador Canada/USA 2024/25 & 25/26

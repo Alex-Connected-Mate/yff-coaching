@@ -16,11 +16,11 @@ const translations = {
         "nav.contact": "Contact Me",
 
         // Hero
-        "hero.subtitle": "Coach Sportif \u2022 Toulouse",
+        "hero.subtitle": "Coach HYROX \u2022 Toulouse",
         "hero.line1": "TRANSFORM",
         "hero.line2": 'YOUR <em class="text-accent">BODY</em>',
         "hero.line3": "YOUR LIFE",
-        "hero.desc": "Fitness & Conditioning coaching with Yohan Plier. Personal training, outdoor, at home and indoor sessions tailored to your goals.",
+        "hero.desc": "HYROX Certified Coach in Toulouse. HYROX Ambassador Canada/USA, 15+ HYROX races, personal training, group classes &amp; custom programs with Yohan Plier.",
         "hero.cta1": "Start Today",
         "hero.cta2": "Explore Services",
         "hero.stat1": "Years Experience",
@@ -160,11 +160,11 @@ const translations = {
         "nav.contact": "Me Contacter",
 
         // Hero
-        "hero.subtitle": "Coach Sportif \u2022 Toulouse",
+        "hero.subtitle": "Coach HYROX \u2022 Toulouse",
         "hero.line1": "TRANSFORME",
         "hero.line2": 'TON <em class="text-accent">CORPS</em>',
         "hero.line3": "TA VIE",
-        "hero.desc": "Coaching Fitness & Pr\u00e9paration physique avec Yohan Plier. Entra\u00eenement personnel, en ext\u00e9rieur, \u00e0 domicile ou en salle, adapt\u00e9 \u00e0 tes objectifs.",
+        "hero.desc": "Coach HYROX certifi\u00e9 \u00e0 Toulouse. Ambassadeur HYROX Canada/USA, 15+ courses HYROX, coaching personnel, cours collectifs &amp; programmes sur-mesure avec Yohan Plier.",
         "hero.cta1": "Commence Aujourd'hui",
         "hero.cta2": "D\u00e9couvrir les Services",
         "hero.stat1": "Ans d'Exp\u00e9rience",

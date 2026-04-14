@@ -1,0 +1,22 @@
+{
+    "name": "YFF Coaching - Coach HYROX Toulouse",
+    "short_name": "YFF Coaching",
+    "description": "Coach HYROX certifié à Toulouse - Yohan Plier",
+    "start_url": "/yff-coaching/",
+    "display": "standalone",
+    "background_color": "#0a0a0a",
+    "theme_color": "#e63019",
+    "lang": "fr",
+    "icons": [
+        {
+            "src": "assets/images/logo-yff-small.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/images/logo-yff-new.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

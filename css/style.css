@@ -2534,7 +2534,8 @@ ol.blog-list li::before {
     outline-offset: 2px;
 }
 
-.sr-only {
+.sr-only,
+.seo-only {
     position: absolute;
     width: 1px;
     height: 1px;
