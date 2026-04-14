@@ -1174,6 +1174,14 @@ section {
     margin-bottom: 32px;
 }
 
+.program-pricing-single {
+    margin-bottom: 32px;
+}
+
+.program-pricing-single .program-pricing-table {
+    max-width: 520px;
+}
+
 .program-pricing-table {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid var(--border-color);
