@@ -11,6 +11,7 @@ const translations = {
         "nav.personal": "Personal Training",
         "nav.group": "Group Training",
         "nav.programs": "Programs",
+        "nav.blog": "Blog",
         "nav.about": "About",
         "nav.contact": "Contact Me",
 
@@ -124,6 +125,18 @@ const translations = {
         "about.p3": "Now based in Toulouse, I'm here to help you reach your full potential.",
         "about.certs": "Certifications & Education",
 
+        // Blog
+        "blog.tag": "Blog",
+        "blog.title": 'Latest <em class="text-accent">Articles</em>',
+        "blog.desc": "Tips, guides, and insights on HYROX, fitness, and performance coaching.",
+        "blog.post1.date": "April 14, 2026",
+        "blog.post1.readtime": "5 min read",
+        "blog.post1.title": "HYROX: What is it?",
+        "blog.post1.excerpt": "A complete introduction to HYROX \u2014 the World Series of Fitness Racing. Discover the format, the stations, and why millions of athletes worldwide are joining the movement.",
+        "blog.readMore": "Read article \u2192",
+        "blog.comingSoon.title": "More articles coming soon",
+        "blog.comingSoon.desc": "Training guides, race preparation, nutrition tips and more.",
+
         // CTA
         "cta.title": 'Ready to <em class="text-accent">Transform</em>?',
         "cta.desc": "Take the first step towards a healthier, stronger you. Let's build your fitness journey together.",
@@ -142,6 +155,7 @@ const translations = {
         "nav.personal": "Coaching Perso",
         "nav.group": "Cours Collectifs",
         "nav.programs": "Programmes",
+        "nav.blog": "Blog",
         "nav.about": "\u00C0 propos",
         "nav.contact": "Me Contacter",
 
@@ -254,6 +268,18 @@ const translations = {
         "about.p2": "J'ai \u00e9tudi\u00e9 les Sciences du Sport (STAPS) avec une sp\u00e9cialisation en Entra\u00eenement Sportif et Optimisation de la Performance, puis j'ai poursuivi avec une Licence Professionnelle M\u00e9tiers de la Forme. J'ai travaill\u00e9 pr\u00e8s de quatre ans comme coach en salle et \u00e0 domicile.",
         "about.p3": "D\u00e9sormais install\u00e9 \u00e0 Toulouse, je suis l\u00e0 pour t'aider \u00e0 atteindre ton plein potentiel.",
         "about.certs": "Certifications & Formation",
+
+        // Blog
+        "blog.tag": "Blog",
+        "blog.title": 'Derniers <em class="text-accent">Articles</em>',
+        "blog.desc": "Conseils, guides et analyses sur HYROX, le fitness et la performance.",
+        "blog.post1.date": "14 avril 2026",
+        "blog.post1.readtime": "5 min de lecture",
+        "blog.post1.title": "HYROX : Qu'est-ce que c'est ?",
+        "blog.post1.excerpt": "Une introduction compl\u00e8te \u00e0 HYROX \u2014 la World Series of Fitness Racing. D\u00e9couvre le format, les stations, et pourquoi des millions d'athl\u00e8tes dans le monde rejoignent le mouvement.",
+        "blog.readMore": "Lire l'article \u2192",
+        "blog.comingSoon.title": "D'autres articles bient\u00f4t",
+        "blog.comingSoon.desc": "Guides d'entra\u00eenement, pr\u00e9paration de course, conseils nutrition et plus.",
 
         // CTA
         "cta.title": 'Pr\u00eat \u00e0 te <em class="text-accent">Transformer</em> ?',
