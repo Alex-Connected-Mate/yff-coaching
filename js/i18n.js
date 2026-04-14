@@ -15,7 +15,7 @@ const translations = {
         "nav.contact": "Contact Me",
 
         // Hero
-        "hero.subtitle": "Coach Sportif \u2022 France",
+        "hero.subtitle": "Coach Sportif \u2022 Toulouse",
         "hero.line1": "TRANSFORM",
         "hero.line2": 'YOUR <em class="text-accent">BODY</em>',
         "hero.line3": "YOUR LIFE",
@@ -49,7 +49,7 @@ const translations = {
         "personal.f2.desc": "Programs adapted to your body and goals",
         "personal.f3.title": "Real Results",
         "personal.f3.desc": "Track your progress with measurable outcomes",
-        "personal.location": "At your home, outdoors, or at the gym in France",
+        "personal.location": "At your home, outdoors, or at the gym in Toulouse",
 
         // Group
         "group.tag": "Train Together",
@@ -103,7 +103,7 @@ const translations = {
         "about.lead": "A coach driven by passion for fitness and well-being.",
         "about.p1": "I've loved sports since I was young, and that passion led me to study and work in the field of physical performance and sports coaching.",
         "about.p2": "I studied Sports Science (STAPS) with a specialization in Sports Training and Performance Optimization, then pursued a Bachelor's degree in Fitness Professions. I've worked for nearly four years as a coach in gyms and at home.",
-        "about.p3": "Now based in France, I'm here to help you reach your full potential.",
+        "about.p3": "Now based in Toulouse, I'm here to help you reach your full potential.",
         "about.certs": "Certifications & Education",
 
         // CTA
@@ -112,7 +112,7 @@ const translations = {
         "cta.contact": "Contact Me Now",
 
         // Footer
-        "footer.tagline": "Coach Sportif en France<br>Fitness & Conditioning Coaching",
+        "footer.tagline": "Coach Sportif \u00e0 Toulouse<br>Fitness & Conditioning Coaching",
         "footer.quicklinks": "Quick Links",
         "footer.getintouch": "Get In Touch"
     },
@@ -128,7 +128,7 @@ const translations = {
         "nav.contact": "Me Contacter",
 
         // Hero
-        "hero.subtitle": "Coach Sportif \u2022 France",
+        "hero.subtitle": "Coach Sportif \u2022 Toulouse",
         "hero.line1": "TRANSFORME",
         "hero.line2": 'TON <em class="text-accent">CORPS</em>',
         "hero.line3": "TA VIE",
@@ -162,7 +162,7 @@ const translations = {
         "personal.f2.desc": "Programmes adapt\u00e9s \u00e0 ton corps et tes objectifs",
         "personal.f3.title": "R\u00e9sultats Concrets",
         "personal.f3.desc": "Suis ta progression avec des r\u00e9sultats mesurables",
-        "personal.location": "\u00C0 domicile, en ext\u00e9rieur ou en salle en France",
+        "personal.location": "\u00C0 domicile, en ext\u00e9rieur ou en salle \u00e0 Toulouse",
 
         // Group
         "group.tag": "En Groupe",
@@ -216,7 +216,7 @@ const translations = {
         "about.lead": "Un coach port\u00e9 par la passion du fitness et du bien-\u00eatre.",
         "about.p1": "Passionn\u00e9 de sport depuis toujours, cette passion m'a amen\u00e9 \u00e0 \u00e9tudier et travailler dans le domaine de la performance physique et du coaching sportif.",
         "about.p2": "J'ai \u00e9tudi\u00e9 les Sciences du Sport (STAPS) avec une sp\u00e9cialisation en Entra\u00eenement Sportif et Optimisation de la Performance, puis j'ai poursuivi avec une Licence Professionnelle M\u00e9tiers de la Forme. J'ai travaill\u00e9 pr\u00e8s de quatre ans comme coach en salle et \u00e0 domicile.",
-        "about.p3": "D\u00e9sormais install\u00e9 en France, je suis l\u00e0 pour t'aider \u00e0 atteindre ton plein potentiel.",
+        "about.p3": "D\u00e9sormais install\u00e9 \u00e0 Toulouse, je suis l\u00e0 pour t'aider \u00e0 atteindre ton plein potentiel.",
         "about.certs": "Certifications & Formation",
 
         // CTA
@@ -225,7 +225,7 @@ const translations = {
         "cta.contact": "Me Contacter",
 
         // Footer
-        "footer.tagline": "Coach Sportif en France<br>Coaching Fitness & Pr\u00e9paration Physique",
+        "footer.tagline": "Coach Sportif \u00e0 Toulouse<br>Coaching Fitness & Pr\u00e9paration Physique",
         "footer.quicklinks": "Liens Rapides",
         "footer.getintouch": "Me Contacter"
     }
@@ -264,14 +264,14 @@ function applyTranslations(lang) {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
         metaDesc.content = lang === 'fr'
-            ? "Coach sportif certifi\u00e9 en France. Coaching Fitness & Pr\u00e9paration physique \u2014 Coaching Personnel, Cours Collectifs, Programmes Sur-Mesure. Transforme ton corps avec Yohan Plier."
-            : "Certified Personal Trainer in France. Fitness & Conditioning coaching \u2014 Personal Training, Group Training, Custom Programs. Transform your body with Yohan Plier.";
+            ? "Coach sportif certifi\u00e9 \u00e0 Toulouse. Coaching Fitness & Pr\u00e9paration physique \u2014 Coaching Personnel, Cours Collectifs, Programmes Sur-Mesure. Transforme ton corps avec Yohan Plier."
+            : "Certified Personal Trainer in Toulouse. Fitness & Conditioning coaching \u2014 Personal Training, Group Training, Custom Programs. Transform your body with Yohan Plier.";
     }
 
     // Update title
     document.title = lang === 'fr'
-        ? "YFF Coaching | Yohan Plier - Coach Sportif France"
-        : "YFF Coaching | Yohan Plier - Coach Sportif France";
+        ? "YFF Coaching | Yohan Plier - Coach Sportif Toulouse"
+        : "YFF Coaching | Yohan Plier - Coach Sportif Toulouse";
 
     // Update lang switch button
     const flag = document.getElementById('langFlag');
